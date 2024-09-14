@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deepak Pandey | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #00f9ec;
+     
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    header {
+      background-color: #2c0c5e;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3.5em;
+    }
+    .intro {
+      text-align: center;
+      margin: 50px 0;
+    }
+    .intro img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+    .description, .hobbies, .contact {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .contact a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .disp{
+      text-align: center;
+      padding: 0px 5% 0px 5%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Deepak Pandey</h1>
+    <p>B.Tech in CSE | UIT RGPV, Shivpuri</p>
+  </header>
+
+  <div class="intro">
+    <img src="./images/deepak pandey.jpg" alt="Deepak Pandey">
+  </div>
+
+  <section class="description">
+    <h2>About Me</h2>
+    <p class="disp">Hi, I'm Deepak Pandey, a 4th-year B.Tech student specializing in Computer Science and Engineering at UIT RGPV, Shivpuri. I have a passion for coding and exploring new technologies. I am always eager to learn and improve myself in the field of technology and software development.</p>
+  </section>
+
+  <section class="hobbies">
+    <h2>Hobbies</h2>
+    <p class="disp">In my free time, I enjoy reading books and honing my coding skills by working on various projects and coding challenges.</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p class="disp">Feel free to reach out to me for collaboration or just a friendly chat!</p>
+    <a href="mailto:pandeycse2003@example.com">Contact via Email</a>
+  </section>
+</body>
+</html>
